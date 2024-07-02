@@ -40,7 +40,7 @@ async function downloadVideoFromFacebook(url) {
 
         // Cek apakah permintaan sukses
         if (response.status === 200) {
-            const videoUrl = response.data.sd; // Ambil URL video SD
+            const videoUrl = response.data.hd; // Ambil URL video SD
 
             return videoUrl;
         } else {
