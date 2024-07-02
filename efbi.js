@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '6811315556:AAEi5nftWiwFJSgK6fb6ETHdonCqaWE5S30'; // Ganti dengan token bot Anda
+const token = '6811315556:AAExL52Cv7jmrLDTjDWZyAjur-eEXqrjrLI'; // Ganti dengan token bot Anda
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', async (msg) => {
