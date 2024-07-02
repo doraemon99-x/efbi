@@ -2,9 +2,9 @@
     "name": "telegram-bot-nodejs",
     "version": "1.0.0",
     "description": "Bot Telegram sederhana dengan Node.js",
-    "main": "bot.js",
+    "main": "efbi.js",
     "scripts": {
-      "start": "node twtv.js"
+      "start": "node efbi.js"
     },
     "author": "Nama Anda",
     "license": "MIT",
