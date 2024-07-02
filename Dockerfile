@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Command untuk menjalankan aplikasi
-CMD ["node", "twtv.js"]
+CMD ["node", "efbi.js"]
